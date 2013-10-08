@@ -1,0 +1,227 @@
+html,body { height: 100%; margin: 0px; padding: 0px; background:#000000 }
+
+li.sidebar {
+  background-color: #ffd600;
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border-radius: 7px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  letter-spacing: 0.16em;
+  margin-bottom: 30px;
+  display: inline-block;
+}
+
+ul.article-list {
+    padding-top: 2em;
+    margin-bottom: 1em;
+}
+
+li.article-list {
+    margin-bottom: 3em;
+    padding-left: 150px;
+    text-indent: -150px;
+}
+
+.centered-image {
+    text-align: center;
+    margin-left: 37%;
+    height: 100%;
+    max-width: 1000px;
+    padding-right: 20px;
+    position: absolute;
+}
+.centered-image:before {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+.centered-image > img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-content-article {
+    max-width: 65em;
+    padding-right: 20px;
+    min-width: 200px;
+    margin-left: 420px;
+    padding-bottom: 1.5em;
+    padding-top: 3em;
+}
+
+.main-content {
+    max-width: 65em;
+    padding-right: 20px;
+    min-width: 200px;
+    margin-left: 420px;
+    padding-bottom: 1.5em;
+    padding-top: 6em;
+}
+
+.article-container {
+    background: #0e0e0e;
+    border-radius: 15px;
+    border: solid 5px #333333;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1.5em;
+    padding-bottom: 0em;
+    max-height: 45em;
+    overflow: scroll;
+}
+
+.article-container-head {
+    position: absolute;
+    display: block;
+    height: 1.5em;
+    width: 61em;
+    margin-top: -1.5em;
+    background-color: #0e0e0e;
+}
+
+.article-container-tail {
+    position: absolute;
+    display: block;
+    height: 1.5em;
+    width: 61em;
+    margin-top: 43.5em;
+    background-color: #0e0e0e;
+}
+
+div.sidebar-container {
+  position:absolute;
+  width: 400px;
+  background-color: #000000;
+  margin-top: 0;
+  text-align: center;
+}
+
+ul.sidebar-container {
+    font-family: Arial;
+    list-style-type: none;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2em;
+    text-align: center;
+    display: block;
+    margin-top: 45px;
+    margin-bottom: 0;
+}
+
+#dopemini {
+    width: 170px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    margin-top: 45px;
+    border-radius: 12px;
+}
+
+h1 {
+    font-family: Tahoma;
+    font-size: 2.5em;
+    letter-spacing: 0.1em;
+    color: #ffd600;
+    display: inline;
+}
+
+h2 {
+    color: #606161;
+    font-family: Helvetica;
+    font-weight: 100;
+    font-size: 1em;
+    margin-top: 2px;
+    margin-bottom: 4px;
+}
+
+h3 {
+    font-family: Tahoma;
+    font-size: 1.6em;
+    color: #ffd600;
+    display: inline;
+    text-decoration: underline;
+    line-height: 1.4em;
+    padding-left: 0;
+    margin: 0;
+}
+
+h4 {
+    color: #606161;
+    font-family: Helvetica;
+    font-weight: 100;
+    font-size: 1.3em;
+    display: inline-block;
+    line-height: 1.5em;
+    width: 150px;
+    text-indent: 0;
+    margin: -2px;
+}
+
+.about-text {
+    color: #606161;
+    font-family: Helvetica;
+    font-weight: 100;
+    font-size: 1.3em;
+    display: inline-block;
+    line-height: 1.5em;
+    margin-top: 5px;
+    margin-bottom: -5px;
+}
+
+p {
+    font-family: Helvetica;
+    font-weight: 200;
+    font-size: 1.3em;
+    color: #ffffff;
+    line-height: 1.5em;
+    letter-spacing: 0.1em;
+    text-align: justify;
+}
+
+li.sidebar:hover {
+    margin-left: -5px;
+}
+
+li.sidebar:active {
+    background-color:#FFFFFF;
+}
+
+.byline {
+    color: #FFFFFF;
+    
+    background: #333333;
+    display: inline-block;
+    vertical-align: 0.2em;
+    font-family: Verdana;
+    font-size: 1em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    border-radius: 7px;
+    margin-left: 20px;
+}
+
+#background-img {
+  max-width: 600px;
+}
+
+@media screen and (max-width: 600px) {
+    .centered-image {
+        display:none;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .centered-image {
+        margin-left: 400px;
+    }
+    #background-img {
+        width: 98%;
+    }
+}
